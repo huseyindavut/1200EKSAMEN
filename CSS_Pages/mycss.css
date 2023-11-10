@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #000;
+}
+header {
+    padding: 5px 5px;
+    box-sizing: border-box;  
+    
+    
+}
+
+
+    
+.logooslomet {
+    margin-top: 0px;
+    margin-left: 39px;
+    width: 130px;
+    height: 20%;
+   
+}
+
+
+section {
+    width: 100%;
+    height:100vh ;
+}
+section.sec1 {
+    margin-top: 10px;
+    background: url(../Images/p32_byg.jpg);
+    background-size: cover;
+
+}
+
+section.sec2 {
+    padding: 100px;
+    box-sizing: border-box;
+    height: auto;
+
+}
+
+section.sec2 h2{
+    font-size: 3em;
+    margin: 0;
+    padding: 0 0 20px;
+    color: #fff;
+    margin-left: 100px;
+}
+section.sec2 p{
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    margin-bottom: 50px;
+}
+section.sec3 {
+    background: url(../Images/p32_byg2.jpg);
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+
+
+footer {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background: #401010;
+
+    
+    
+
+}
+
+.footer-column {
+    border-color: rgb(255, 255, 255);
+    border-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 1.5em;
+    font-size: 20px;
+}
+.footer-column li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+    display: block;
+    color:  #FFD500;
+    line-height: 1.5;
+    font-size:17px;
+    font-weight: 400;
+    transition:all .50s ease;
+
+}
+.footer-column li:hover {
+    transform: translateY(-3px) translateX(-5px);
+}
+
+.h3class{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 60px;
+    color:rgb(53, 238, 238);
+    text-decoration: underline;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.row {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.row .left img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.row .left .Foto2 {
+    color: #fff;
+    margin-bottom: 0px;
+}
+.row .right {
+    display: flex;
+    align-items: center;
+}
+.row .right .content {
+    padding-left: 20px;
+}
+.row .right .content p{
+    font-size: 1.4em;
+    line-height: 26px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-left: 50px;
+ 
+    padding-bottom: 15px;     
+}
+@media (min-width: 750px){
+    .row .left .content {
+        
+    }
+}
+@media (max-width: 991px){
+    .row .left img {
+        width: 350px;
+        height: 50%;
+    }
+}
+@media (max-width: 768px){
+    .row {
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+.menu-bar {
+    margin-top: 10px;
+  
+    background-color: #7a6e6e57;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    margin-left: 30px;
+    display: none;
+    cursor: pointer;
+    font-size: 60px;
+    color: rgb(125, 212, 232);
+}
+
+.menu-items {
+    margin-top: 12px;
+    display:flex;
+    gap: 60px;
+}
+
+.menu-items a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 140%;
+    
+}
+
+@media screen and (max-width: 750px) {
+    .menu-icon {
+        display: block;
+    }
+    .menu-bar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logooslomet{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 12px;
+    }
+    .menu-items {
+        margin-left: 30px;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .menu-items a {
+        padding: 15px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    input[type="checkbox"]:checked + .menu-items {
+        display: flex;
+    }
+}
+.menu-items a:hover,
+.menu-items a.active {
+    background: rgb(255, 213, 5);
+    color: brown;
+    border-radius: 7px;
+    margin:-10px -10px ;
+    padding: 5px 20px;
+    
+}
