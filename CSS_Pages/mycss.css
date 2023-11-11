@@ -6,21 +6,15 @@ body {
 }
 header {
     padding: 5px 5px;
-    box-sizing: border-box;  
-    
-    
+    box-sizing: border-box;    
 }
-
-
-    
+   
 .logooslomet {
     margin-top: 0px;
     margin-left: 39px;
     width: 130px;
-    height: 20%;
-   
+    height: 20%; 
 }
-
 
 section {
     width: 100%;
@@ -28,9 +22,8 @@ section {
 }
 section.sec1 {
     margin-top: 10px;
-    background: url(../Images/p32_byg.jpg);
+    background: url(../Images/p32_byg.jpg); /*Foto: Huseyin Ozturk-2023  */
     background-size: cover;
-
 }
 
 section.sec2 {
@@ -55,7 +48,7 @@ section.sec2 p{
     margin-bottom: 50px;
 }
 section.sec3 {
-    background: url(../Images/p32_byg2.jpg);
+    background: url(../Images/p32_byg2.jpg);  /*Foto: Huseyin Ozturk-2023  */
     background-size: cover;
     margin-bottom: 200px;
 }
@@ -109,10 +102,19 @@ footer {
 }
 
 
+ .Foto2 {
+    color: #fdd553;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    font-size: 15px;
+   
+}
 
 
-
-
+.link-color {
+    color: #fdd553;
+}
 
 
 
@@ -134,8 +136,10 @@ footer {
     object-fit: cover;
 }
 .row .left .Foto2 {
-    color: #fff;
+    color: #fdd553;
     margin-bottom: 0px;
+    font-size: 15px
+   
 }
 .row .right {
     display: flex;
