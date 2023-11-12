@@ -2,7 +2,7 @@ body {                       /*It is the place where the rules of the body are d
     margin: 0;               /*  Sets the margin of the page to zero, removing any default margin.*/
     padding: 0;              /* Sets the padding of the page to zero, eliminating any default padding.*/
     font-family: sans-serif; /*Defines the font family for the entire page, specifying a sans-serif typeface.*/
-    background: #000;      /*Sets the background color of the page to black (#000).*/
+    background: #000;      /*Sets the background color of the page to black (#000).(Black)*/
 }
 header {
     padding: 5px 5px;
